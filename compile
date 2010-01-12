@@ -1,0 +1,3 @@
+#!/bin/sh
+
+valac --thread --vapidir=libeflvala/vapi --Xcc=-lelementary --pkg=elm --pkg "glib-2.0"  --pkg "dbus-glib-1" timeoko.vala Timeoko/*.vala -o "timeoko"
