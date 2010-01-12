@@ -4,7 +4,7 @@ LICENSE = "GPLv3"
 DEPENDS = "vala-native glib-2.0 dbus dbus-glib libgee"
 
 SRCREV = "${AUTOREV}"
-PV = "0.0.1+gitr${SRCREV}"
+PV = "0.0.2+gitr${SRCREV}"
 
 SRC_URI = "git://github.com/Ebbe/Timeoko.git;protocol=git;branch=master"
 S = "${WORKDIR}/git/"
